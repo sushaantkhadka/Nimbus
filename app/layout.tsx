@@ -6,7 +6,7 @@ const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
   title: "Nimbus | Dashboard",
-  description: "A perfect Ecommerse Dashboard",
+  description: "Perfect Admin dashoabrd",
 };
 
 export default function RootLayout({
