@@ -7,7 +7,6 @@ export default function Home() {
     <div className="p-4">
       <p>Hello world</p>
 
-
       <Button>Hello</Button>
       <Dialog>Hello world</Dialog>
 
