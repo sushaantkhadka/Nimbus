@@ -19,11 +19,14 @@ export async function POST(
             return new NextResponse("Name is required", { status: 400})
         }
         const store = await prismadb.store.create({
-            dara: {
+            data: {
                 name,
                 userId,
             }
         })
+        
+        return new NextResponse("Sucessful", { status: 201});
+
 
     } catch (error) {
         console.log("STORES_POST", error);
